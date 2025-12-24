@@ -1,0 +1,106 @@
+@font-face{
+    font-family: nulshock;
+    src: url(../../assets/fonts/nulshock.otf);
+}
+@font-face{
+    font-family: maison;
+    src: url(../../assets/fonts/MaisonNeue-Medium.ttf);
+}
+@font-face{
+    font-family: dune;
+    src: url(../../assets/fonts/dunerise.ttf);
+}
+:root{
+    --opacity: #1313137a;
+    --blue: rgb(0, 211, 248);
+    --secondary: #28ee6a;
+    --bgc: #131313;
+    --border: #595a6e;
+    --graytext: #8a8989;
+    --darkgray: #2b2c38;
+    --danger: #bd0909;
+    --footer:#21222b;
+    --textcolor: #fff;
+    --titles:nulshock;
+    --texts: maison;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+body {
+    background:var(--bgc);
+    color: var(--textcolor);
+}
+
+
+.login_card {
+    background: var(--bgc);
+    color: var(--textcolor);
+    border: 2px solid var(--border);
+    margin-top: 8rem;
+}
+
+.login_form{
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   font-family: var(--texts);
+}
+.login_form input{
+   background-color: transparent;
+   color: var(--textcolor);
+   border: 1px solid var(--border);
+}
+.login_form .form-group{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.login_form input::placeholder{
+    color: var(--graytext);
+}
+.login_logo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forgot_password{
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.login_btn{
+    background-color: var(--bgc);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    position: relative;
+    left: 80%;
+    
+}
+.dont_have{
+    font-family: var(--texts);
+    width: max-content;
+   color: var(--graytext) ;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2rem;
+}
+.red_box{
+    background-color: var(--danger);
+    color: var(--bgc);
+    width: 100%;
+    height: max-content;
+    padding: .5rem;
+    text-align: center;
+    text-justify: center;
+}
+.green_box{
+    background-color: var(--secondary);
+    color: var(--bgc);
+    width: 100%;
+    height: max-content;
+    padding: .5rem;
+    text-align: center;
+    text-justify: center;
+}

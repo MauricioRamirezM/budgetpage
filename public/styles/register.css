@@ -1,0 +1,102 @@
+@font-face{
+    font-family: nulshock;
+    src: url(../../assets/fonts/nulshock.otf);
+}
+@font-face{
+    font-family: maison;
+    src: url(../../assets/fonts/MaisonNeue-Medium.ttf);
+}
+@font-face{
+    font-family: dune;
+    src: url(../../assets/fonts/dunerise.ttf);
+}
+:root{
+    --opacity: #1313137a;
+    --blue: rgb(0, 211, 248);
+    --secondary: #28ee6a;
+    --bgc: #131313;
+    --border: #595a6e;
+    --graytext: #8a8989;
+    --darkgray: #2b2c38;
+    --danger: #bd0909;
+    --footer:#21222b;
+    --textcolor: #fff;
+    --titles:nulshock;
+    --texts: maison;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+body {
+    background:var(--bgc);
+    color: red;
+}
+
+
+
+/* REGISTER PAGE */
+.register_logo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register_card {
+    background: transparent;
+    color: white;
+    border: 2px solid var(--border);
+    margin-top: 5rem;
+}
+#register_form{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#register_form .form-group{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ #register_form input{
+    background: transparent;
+    color: white;
+    border: 1px solid var(--border);
+
+}
+#register_form input::placeholder{
+    color: var(--graytext);
+}
+.register_btn{
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+.login_link{
+    color:var(--blue) ;
+    border: 1px solid var(--blue);
+
+}
+.wrapper_btn{
+    position: relative;
+    left: 60%;
+}
+
+.red_box{
+    background-color: var(--danger);
+    color: var(--bgc);
+    width: 100%;
+    height: max-content;
+    padding: .5rem;
+    text-align: center;
+    text-justify: center;
+}
+.green_box{
+    background-color: var(--secondary);
+    color: var(--bgc);
+    width: 100%;
+    height: max-content;
+    padding: .5rem;
+    text-align: center;
+    text-justify: center;
+}

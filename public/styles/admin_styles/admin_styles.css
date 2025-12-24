@@ -1,0 +1,132 @@
+@font-face{
+    font-family: nulshock;
+    src: url(../../../assets/fonts/nulshock.otf);
+}
+@font-face{
+    font-family: maison;
+    src: url(../../../assets/fonts/MaisonNeue-Medium.ttf);
+}
+@font-face{
+    font-family: dune;
+    src: url(../../../assets/fonts/dunerise.ttf);
+}
+:root{
+    --opacity: #1313137a;
+    --blue: rgb(0, 211, 248);
+    --secondary: #28ee6a;
+    --bgc: #131313;
+    --border: #595a6e;
+    --gray: #5f739b9a;
+    --darkgray: #2b2c38;
+    --danger: #bd0909;
+    --footer:#21222b;
+    --textcolor: #fff;
+    --titles:nulshock;
+    --texts: maison;
+}
+
+.add_admin_logo{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-family: var(--titles);
+    color: var(--bgc);
+}
+.logo{
+    width: 4rem;
+}
+.admin_nav{
+    width: 50%;
+    justify-content: space-around;
+    font-family: var(--texts);
+    color: var(--darkgray);
+    font-size: 1.2rem;
+}
+
+.index_container{
+    margin-top: 5rem;
+    background-color: var(--gray);
+    padding: 2rem;
+    border-radius: 16px;
+    font-family: var(--texts);
+    
+}
+.last_line{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.admin_btn{
+    background-color: var(--blue);
+    color: var(--bgc);
+}
+.admin_btn:hover{
+    background-color: var(--bgc);
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+
+.alert_box{
+    height: 4rem;
+    width: 60%;
+    margin: 2rem auto 0 ;
+    text-align: center;
+    
+}
+.card{
+    border: 2px solid var(--border);
+    font-family: var(--texts);
+}
+.card-footer{
+    padding: 1rem;
+}
+.h2{
+    font-family: var(--titles);
+}
+.green_btn{
+    background-color: var(--secondary);
+    font-weight: bold;
+}
+.green_btn:hover{
+    border: 1px solid var(--secondary);
+    color: var(--secondary);
+}
+.red_btn{
+    background-color: var(--danger);
+    font-weight: bold;
+    color: var(--bgc);
+}
+.red_btn:hover{
+    border: 1px solid var(--danger);
+    color: var(--danger);
+}
+.blue_btn{
+    background-color: var(--blue);
+    font-weight: bold;
+}
+.blue_btn:hover{
+    border: 1px solid var(--blue);
+    color: var(--blue);
+}
+.btn_wrapper{
+    margin-top: 1rem;
+}
+.form-group{
+    margin: 1rem auto;
+}
+/* .client_appo_table{
+    border: 2px solid var(--darkgray);
+    text-align: center;
+    
+}
+.client_appo_table thead tr{
+    background-color: var(--border);
+} */
